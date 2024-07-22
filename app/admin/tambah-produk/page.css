@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    padding-top: 2rem;
+    padding-bottom: 7rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px; /* Adjust the gap as needed */
+}
+
+.col-span-2 {
+    grid-column: span 2;
+}
+
+.product-form {
+    max-width: 40rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
